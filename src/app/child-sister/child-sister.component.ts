@@ -6,7 +6,7 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./child-sister.component.scss']
 })
 export class ChildSisterComponent implements OnInit {
-// @Input() showCounter = 0;
+
 @Input() showClickedCounter = 0;
   constructor() { }
 
