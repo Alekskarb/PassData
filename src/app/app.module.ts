@@ -2,17 +2,21 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { ParentComponent } from './parent.component';
+import { ChildSisterComponent } from './child-sister/child-sister.component';
+import { ChildBrotherComponent } from './child-brother/child-brother.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    ParentComponent,
+    ChildSisterComponent,
+    ChildBrotherComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ParentComponent]
 })
 export class AppModule { }
